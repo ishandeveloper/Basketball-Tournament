@@ -1,0 +1,60 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+    overflow-x: hidden;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+.navigation-clean-button {
+
+}
+nav{
+    position: fixed;
+}
+
+.content{
+ 
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    z-index: 0;
+}
+
+#wrapper{
+    
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+
+@keyframes wiggle {
+  0% { transform: translate(0px, 6px) rotate(0deg); }
+  10% { transform: translate(0px, 12px) rotate(0deg); }
+  20% { transform: translate(0px, 18px) rotate(0deg); }
+  30% { transform: translate(0px, 24px) rotate(0deg); }
+  40% { transform: translate(0px, 30px) rotate(0deg); }
+  50% { transform: translate(0px, 30px) rotate(0deg); }
+  60% { transform: translate(0px, 24px) rotate(0deg); }
+  70% { transform: translate(0px, 18px) rotate(0deg); }
+  80% { transform: translate(0px, 12px) rotate(0deg); }
+  90% { transform: translate(0px, 6px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+
+#big-text-intro{
+       margin-top: 300px;
+        font-size: 1.9em;
+}
+#small-text-intro{
+    margin-left: 10px;
+    font-weight: 100;
+    text-align: justify;
+    
+}
