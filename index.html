@@ -12,10 +12,12 @@
     <link rel="icon" href="assets/img/sports-logo-transparent.png" type="image/gif" sizes="16x16">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="loader.js"></script>
 </head>
 
-<body>
-
+<body onload="loader()">
+    <div id="loader"></div>
+<div id="saara-content">
     <div id="vertical-nav">
         <center>
             <img class="logo" src="assets/img/sports-logo-transparent.png" />
@@ -353,6 +355,7 @@
             </center>
         </div>
     </section>
+     </div>
     <div class="login-modal" id="loginmodal">
         <center><iframe src="login.html" id="modal-frame"></iframe>
             <button class="close-btn" onclick="myFunction2()">Close This Window</button></center>
@@ -399,6 +402,7 @@
         }
 
     </script>
+   
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
