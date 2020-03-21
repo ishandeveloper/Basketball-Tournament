@@ -17,3 +17,4 @@ Lots and lots of HTML & CSS and a pinch of JavaScript.
 <pre>
 Made with ♥ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
 </pre>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/powered-by-netflix.svg)](https://forthebadge.com)
